@@ -1,4 +1,4 @@
-FROM ctftraining/base_pwn_xinetd
+FROM ctftraining/base_image_xinetd
 
 COPY src /tmp/
 

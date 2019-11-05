@@ -1,11 +1,5 @@
 version: "2"
 services:
-  
-  base_pwn:
-    build:
-      context: .
-      dockerfile: Dockerfile
-    image: ctftraining/base_pwn_xinetd
 
   pwn:
     build:
